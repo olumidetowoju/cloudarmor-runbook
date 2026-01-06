@@ -46,17 +46,16 @@ Infrastructure control lives in **AWS**.
 
 ## Repository Structure
 
+```
 cloudarmor-runbook/
-├── 00-overview/ # Mission, positioning, sitemap
-├── 01-design-system/ # Visual and UX rules
-├── 02-squarespace/ # Page-by-page build instructions
-├── 03-aws/ # DNS, TLS, CloudFront configuration
-├── 04-qa-and-go-live/ # Validation, troubleshooting, checklists
-├── 05-changelog/ # Change history
-└── evidence/ # Screenshots and exports
-
-yaml
-Copy code
+├── 00-overview/               # Mission, scope, positioning, sitemap
+├── 01-design-system/          # Brand, visual standards, UX rules
+├── 02-squarespace/            # Page-by-page build and configuration
+├── 03-aws/                    # DNS, TLS, CloudFront, security controls
+├── 04-qa-and-go-live/         # Validation, testing, go-live checklists
+├── 05-changelog/              # Versioned change history
+└── evidence/                  # Screenshots, exports, verification artifacts
+```
 
 ---
 
